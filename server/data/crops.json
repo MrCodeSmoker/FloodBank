@@ -1,0 +1,44 @@
+{
+  "paddy": {
+    "label": "Paddy",
+    "maturity_days": 120,
+    "waterlogging_tolerance_hours": 72,
+    "standing_water_ok": true
+  },
+  "sugarcane": {
+    "label": "Sugarcane",
+    "maturity_days": 300,
+    "waterlogging_tolerance_hours": 24,
+    "standing_water_ok": false
+  },
+  "banana": {
+    "label": "Banana",
+    "maturity_days": 300,
+    "waterlogging_tolerance_hours": 24,
+    "standing_water_ok": false
+  },
+  "groundnut": {
+    "label": "Groundnut",
+    "maturity_days": 110,
+    "waterlogging_tolerance_hours": 12,
+    "standing_water_ok": false
+  },
+  "maize": {
+    "label": "Maize",
+    "maturity_days": 100,
+    "waterlogging_tolerance_hours": 24,
+    "standing_water_ok": false
+  },
+  "cotton": {
+    "label": "Cotton",
+    "maturity_days": 160,
+    "waterlogging_tolerance_hours": 48,
+    "standing_water_ok": false
+  },
+  "other": {
+    "label": "Other crop",
+    "maturity_days": null,
+    "waterlogging_tolerance_hours": 0,
+    "standing_water_ok": false
+  }
+}

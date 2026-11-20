@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Cuddalore",
+    "district": "Cuddalore",
+    "lat": 11.748,
+    "lon": 79.7714,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Chidambaram",
+    "district": "Cuddalore",
+    "lat": 11.3991,
+    "lon": 79.6911,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Parangipettai",
+    "district": "Cuddalore",
+    "lat": 11.4932,
+    "lon": 79.765,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Sirkazhi",
+    "district": "Mayiladuthurai",
+    "lat": 11.2373,
+    "lon": 79.7357,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Nagapattinam",
+    "district": "Nagapattinam",
+    "lat": 10.7672,
+    "lon": 79.8449,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Velankanni",
+    "district": "Nagapattinam",
+    "lat": 10.6833,
+    "lon": 79.85,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Thanjavur",
+    "district": "Thanjavur",
+    "lat": 10.787,
+    "lon": 79.1378,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Kumbakonam",
+    "district": "Thanjavur",
+    "lat": 10.9602,
+    "lon": 79.3845,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Papanasam",
+    "district": "Thanjavur",
+    "lat": 10.926,
+    "lon": 79.269,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Thiruvarur",
+    "district": "Tiruvarur",
+    "lat": 10.7727,
+    "lon": 79.6368,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Mannargudi",
+    "district": "Tiruvarur",
+    "lat": 10.6667,
+    "lon": 79.45,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Muthupet",
+    "district": "Tiruvarur",
+    "lat": 10.4,
+    "lon": 79.4833,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Tambaram",
+    "district": "Chengalpattu",
+    "lat": 12.9249,
+    "lon": 80.1,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Pallikaranai",
+    "district": "Chennai",
+    "lat": 12.9381,
+    "lon": 80.215,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Thoothukudi",
+    "district": "Thoothukudi",
+    "lat": 8.7642,
+    "lon": 78.1348,
+    "state": "Tamil Nadu",
+    "defaultLanguage": "ta"
+  },
+  {
+    "name": "Alappuzha",
+    "district": "Alappuzha",
+    "state": "Kerala",
+    "lat": 9.4981,
+    "lon": 76.3388,
+    "defaultLanguage": "ml"
+  },
+  {
+    "name": "Thrissur",
+    "district": "Thrissur",
+    "state": "Kerala",
+    "lat": 10.5276,
+    "lon": 76.2144,
+    "defaultLanguage": "ml"
+  },
+  {
+    "name": "Belagavi",
+    "district": "Belagavi",
+    "state": "Karnataka",
+    "lat": 15.8497,
+    "lon": 74.4977,
+    "defaultLanguage": "kn"
+  },
+  {
+    "name": "Raichur",
+    "district": "Raichur",
+    "state": "Karnataka",
+    "lat": 16.2076,
+    "lon": 77.3463,
+    "defaultLanguage": "kn"
+  },
+  {
+    "name": "Vijayawada",
+    "district": "Krishna",
+    "state": "Andhra Pradesh",
+    "lat": 16.5062,
+    "lon": 80.648,
+    "defaultLanguage": "te"
+  },
+  {
+    "name": "Rajahmundry",
+    "district": "East Godavari",
+    "state": "Andhra Pradesh",
+    "lat": 17.0005,
+    "lon": 81.804,
+    "defaultLanguage": "te"
+  },
+  {
+    "name": "Khammam",
+    "district": "Khammam",
+    "state": "Telangana",
+    "lat": 17.2473,
+    "lon": 80.1514,
+    "defaultLanguage": "te"
+  },
+  {
+    "name": "Bhadrachalam",
+    "district": "Bhadradri Kothagudem",
+    "state": "Telangana",
+    "lat": 17.6688,
+    "lon": 80.8881,
+    "defaultLanguage": "te"
+  },
+  {
+    "name": "Kolhapur",
+    "district": "Kolhapur",
+    "state": "Maharashtra",
+    "lat": 16.705,
+    "lon": 74.2433,
+    "defaultLanguage": "mr"
+  },
+  {
+    "name": "Sangli",
+    "district": "Sangli",
+    "state": "Maharashtra",
+    "lat": 16.8524,
+    "lon": 74.5815,
+    "defaultLanguage": "mr"
+  },
+  {
+    "name": "Surat",
+    "district": "Surat",
+    "state": "Gujarat",
+    "lat": 21.1702,
+    "lon": 72.8311,
+    "defaultLanguage": "gu"
+  },
+  {
+    "name": "Bharuch",
+    "district": "Bharuch",
+    "state": "Gujarat",
+    "lat": 21.7051,
+    "lon": 72.9959,
+    "defaultLanguage": "gu"
+  },
+  {
+    "name": "Kendrapara",
+    "district": "Kendrapara",
+    "state": "Odisha",
+    "lat": 20.501,
+    "lon": 86.4223,
+    "defaultLanguage": "or"
+  },
+  {
+    "name": "Puri",
+    "district": "Puri",
+    "state": "Odisha",
+    "lat": 19.8135,
+    "lon": 85.8312,
+    "defaultLanguage": "or"
+  },
+  {
+    "name": "Malda",
+    "district": "Malda",
+    "state": "West Bengal",
+    "lat": 25.0108,
+    "lon": 88.1411,
+    "defaultLanguage": "bn"
+  },
+  {
+    "name": "Berhampore",
+    "district": "Murshidabad",
+    "state": "West Bengal",
+    "lat": 24.0988,
+    "lon": 88.2679,
+    "defaultLanguage": "bn"
+  },
+  {
+    "name": "Darbhanga",
+    "district": "Darbhanga",
+    "state": "Bihar",
+    "lat": 26.1542,
+    "lon": 85.8918,
+    "defaultLanguage": "hi"
+  },
+  {
+    "name": "Jhanjharpur",
+    "district": "Madhubani",
+    "state": "Bihar",
+    "lat": 26.2647,
+    "lon": 86.2799,
+    "defaultLanguage": "hi"
+  },
+  {
+    "name": "Madhubani",
+    "district": "Madhubani",
+    "state": "Bihar",
+    "lat": 26.3537,
+    "lon": 86.0717,
+    "defaultLanguage": "hi"
+  },
+  {
+    "name": "Dhemaji",
+    "district": "Dhemaji",
+    "state": "Assam",
+    "lat": 27.4833,
+    "lon": 94.5833,
+    "defaultLanguage": "as"
+  },
+  {
+    "name": "North Lakhimpur",
+    "district": "Lakhimpur",
+    "state": "Assam",
+    "lat": 27.2352,
+    "lon": 94.1036,
+    "defaultLanguage": "as"
+  },
+  {
+    "name": "Ferozepur",
+    "district": "Ferozepur",
+    "state": "Punjab",
+    "lat": 30.9331,
+    "lon": 74.6225,
+    "defaultLanguage": "pa"
+  },
+  {
+    "name": "Patiala",
+    "district": "Patiala",
+    "state": "Punjab",
+    "lat": 30.3398,
+    "lon": 76.3869,
+    "defaultLanguage": "pa"
+  },
+  {
+    "name": "Gorakhpur",
+    "district": "Gorakhpur",
+    "state": "Uttar Pradesh",
+    "lat": 26.7606,
+    "lon": 83.3732,
+    "defaultLanguage": "hi"
+  },
+  {
+    "name": "Ballia",
+    "district": "Ballia",
+    "state": "Uttar Pradesh",
+    "lat": 25.7584,
+    "lon": 84.148,
+    "defaultLanguage": "hi"
+  }
+]

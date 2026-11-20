@@ -1,0 +1,20 @@
+{
+  "summary": "{village} பகுதியில் மழை அபாயம் {risk}. உங்கள் வயலுக்கான அடுத்த நடவடிக்கைகள்.",
+  "HARVEST_EARLY": "{date}க்குள் அறுவடை செய்யுங்கள்.",
+  "OPEN_DRAINS": "மழைக்கு {hours} மணி முன் {direction} பக்க வடிகாலைத் திறக்கவும்.",
+  "BANK_WATER": "மீதிநீரை {destination}க்கு அனுப்புங்கள். சுமார் {litres} லிட்டர்.",
+  "PROTECT_STORED_GRAIN": "தானியத்தை உயரமான, உலர்ந்த இடத்தில் வையுங்கள்.",
+  "MOVE_EQUIPMENT": "கருவிகளை உயரமான பாதுகாப்பான இடத்துக்கு மாற்றுங்கள்.",
+  "ASK_PANCHAYAT": "Ask your panchayat about shared water storage.",
+  "directions": {
+    "N": "north",
+    "S": "south",
+    "E": "east",
+    "W": "west"
+  },
+  "destinations": {
+    "pond": "farm pond",
+    "well": "recharge well",
+    "tank": "nearby tank"
+  }
+}

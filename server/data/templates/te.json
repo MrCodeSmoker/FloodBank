@@ -1,0 +1,20 @@
+{
+  "summary": "Rain risk is {risk} near {village}. Here are the next steps for your field.",
+  "HARVEST_EARLY": "Harvest by {date}.",
+  "OPEN_DRAINS": "Open the {direction} side drain {hours} hours before rain.",
+  "BANK_WATER": "Send extra water to your {destination}: about {litres} litres.",
+  "PROTECT_STORED_GRAIN": "Move stored grain to a dry, raised place.",
+  "MOVE_EQUIPMENT": "Move equipment to a higher, safer place.",
+  "ASK_PANCHAYAT": "Ask your panchayat about shared water storage.",
+  "directions": {
+    "N": "north",
+    "S": "south",
+    "E": "east",
+    "W": "west"
+  },
+  "destinations": {
+    "pond": "farm pond",
+    "well": "recharge well",
+    "tank": "nearby tank"
+  }
+}
