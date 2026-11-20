@@ -1,5 +1,6 @@
 const CACHE_PREFIX = 'floodbank-cache:';
 const QUEUE_KEY = 'floodbank-pending-ledger';
+const API_BASE_URL = (import.meta.env.VITE_API_URL || '').replace(/\/+$/, '');
 const readJson = key => { try { return JSON.parse(localStorage.getItem(key) || 'null'); } catch { return null; } };
 const writeJson = (key, value) => { try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* Cache storage can be unavailable or full. */ } };
 const emitQueue = () => window.dispatchEvent(new CustomEvent('floodbank:queue', { detail: readJson(QUEUE_KEY) || [] }));
@@ -8,7 +9,7 @@ async function request(path, options = {}) {
   const method = (options.method || 'GET').toUpperCase();
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
   try {
-    const response = await fetch(`/api${path}`, { ...options, headers });
+    const response = await fetch(`${API_BASE_URL}/api${path}`, { ...options, headers });
     const data = await response.json().catch(() => ({}));
     if (!response.ok) throw new Error(data.error || 'Request failed');
     if (method === 'GET') writeJson(`${CACHE_PREFIX}${path}`, data);
@@ -43,7 +44,7 @@ async function syncLedgerQueue() {
   const remaining = [];
   for (const item of queue) {
     try {
-      const response = await fetch(`/api${item.path}`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Idempotency-Key': item.idempotencyKey }, body: JSON.stringify(item.body) });
+      const response = await fetch(`${API_BASE_URL}/api${item.path}`, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Idempotency-Key': item.idempotencyKey }, body: JSON.stringify(item.body) });
       if (!response.ok) { remaining.push(item); continue; }
       const farmerId = item.path.split('/')[3];
       for (const key of [`${CACHE_PREFIX}/farmers/${farmerId}/bank`, `${CACHE_PREFIX}/farmers/${farmerId}/alerts`]) localStorage.removeItem(key);
